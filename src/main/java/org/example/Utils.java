@@ -4,8 +4,10 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.text.DateFormat;
@@ -26,14 +28,14 @@ public class Utils extends BasePage{
     public static void clickOnElement(By by){ driver.findElement(by).click();
     }
 
-
-
     // wait for clickable method
     public static void waitForClickable(By by, int time)
     {
         WebDriverWait wait = new WebDriverWait(driver,time);
         wait.until(ExpectedConditions.elementToBeClickable(by));
     }
+
+
     // wait for visible method
     public void waitForVisibility(By by,int time){
         WebDriverWait wait = new WebDriverWait(driver, time);
@@ -48,12 +50,12 @@ public class Utils extends BasePage{
     }
 
 
+    //    REUSABLE METHOD FOR SEND KEYS.
 
-//    REUSABLE METHOD FOR SEND KEYS.
-
-    public void enterText(By by,String text){
+    public static void enterText(By by, String text) {
         driver.findElement(by).sendKeys(text);
     }
+
 
     //    TO ADD @BEFORE METHOD FOR OPEN BROWSER
     @Before
@@ -82,8 +84,10 @@ public class Utils extends BasePage{
         return driver.findElement(by).getText();
     }
 
-public static void assertTextMessage(String message, String expected, By by){
+    public static void assertTextMessage(String message, String expected, By by){
         String actual = getTextFromElement(by);
         Assert.assertEquals(message, expected,actual);
 }
+
+
 }

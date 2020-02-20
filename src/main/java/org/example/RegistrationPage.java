@@ -9,8 +9,6 @@ import static org.example.Utils.createTimeStamp;
 public class RegistrationPage extends Utils {
 
 
-
-
     private By _firstName = By.id("FirstName");
     private By _lastName = By.id("LastName");
     private By _email = By.id("Email");
@@ -25,7 +23,6 @@ public class RegistrationPage extends Utils {
     assertURL("register");
 
     }
-
 
     public void userEntersRegistrationDetails(){
 

@@ -25,6 +25,9 @@ public class TestSuite extends BaseTest {
         //verify registration success message
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
         Comparison.comparingProducts();
+        // email a friend a product
+        emailafriendpage.emailingFriend();
+
 
     }
 }
