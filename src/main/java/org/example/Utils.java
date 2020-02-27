@@ -1,16 +1,15 @@
 package org.example;
 
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
+import org.testng.asserts.SoftAssert;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -68,10 +67,9 @@ public class Utils extends BasePage{
     }
     //    TO ADD @AFTER METHOD FOR CLOSE BROWSER
 
-    @After
+    @AfterTest
     public void closeBrowser(){
         driver.quit();
-
     }
 
 
@@ -89,5 +87,38 @@ public class Utils extends BasePage{
         Assert.assertEquals(message, expected,actual);
 }
 
+    public static void SoftAssert(By by, String message) {
+        SoftAssert softAssert = new SoftAssert();
+        String className;
+
+//        public void test_UsingSoftAssertion() {
+//            softAssert.assertTrue(true == true);
+//            softAssert.assertEquals();
+//            softAssert.assertEquals(className, "SoftAssertion");
+//            System.out.println("Last statement gets executed!");
+//            softAssert.assertAll();
+        }
+
+    //select from dropdown by value method
+    public static void selectFromDropdownByValue(By by, String text) {
+        Select select = new Select(driver.findElement(by));
+        select.selectByValue(text);
+    }
+
+
+
+    //select from dropdown by visible text method
+    public static void selectFromDropdownByVisibleText(By by, String text) {
+        Select select = new Select(driver.findElement(by));
+        select.selectByVisibleText(text);
+    }
+
+
+
+    //select from dropdown by index method
+    public static void selectFromDropdownByIndex(By by, int index) {
+        Select select = new Select(driver.findElement(by));
+        select.selectByIndex(index);
+    }
 
 }

@@ -1,10 +1,6 @@
 package org.example;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import static org.example.Utils.createTimeStamp;
 
 public class RegistrationPage extends Utils {
 
@@ -25,6 +21,12 @@ public class RegistrationPage extends Utils {
     }
 
     public void userEntersRegistrationDetails(){
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
         enterText(_firstName,firstName);

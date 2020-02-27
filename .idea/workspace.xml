@@ -2,19 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceaf2b67-2a8e-4db4-b256-dee61b067df0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/khush.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/emailafriendpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Catagories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ChangeCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Computers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailFriendPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JewelryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/changeCurrencyResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/BrowserDriver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/BrowserDriver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/TestData/Nopcommerce testcases.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/TestData/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/khush.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/khush.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Comparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/emailafriendpage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Resourses/BrowserDriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/BrowserDriver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Page object model Demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Comparison.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/emailafriendpage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/TestSuite.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,9 +68,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/SOFT/testng-6.14.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/Resourses/TestData" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -50,30 +79,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khush\Page object model Demo homework\src\test\Resourses\TestData" />
+      <recent name="C:\Users\khush\Page object model Demo homework\src\test\Resourses\BrowserDriver" />
+      <recent name="C:\Users\khush\Page object model Demo homework\src\test\Resourses\BrowserDriver\Testcases" />
+      <recent name="C:\Users\khush\Page object model Demo\src\test\Resourses\BrowserDriver" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\khush\Page object model Demo\src\test\Resourses\BrowserDriver" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuite">
-    <configuration name="RegistrationPage.verifyUserIsOnRegisterPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Page object model Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RegistrationPage" />
-      <option name="METHOD_NAME" value="verifyUserIsOnRegisterPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestSuite.userShouldBeAbleToChangeCurrency">
     <configuration name="TestSuite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Page object model Demo" />
       <extension name="coverage">
@@ -91,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuite.userShouldAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Page object model Demo" />
+    <configuration name="TestSuite.registerUserShouldAbleToReferAFriendSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Page object model Demo homework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -101,7 +117,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
-      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="METHOD_NAME" value="registerUserShouldAbleToReferAFriendSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.userShouldAbleToCompareTwoDifferentProductSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Page object model Demo homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
+      <option name="METHOD_NAME" value="userShouldAbleToCompareTwoDifferentProductSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.userShouldBeAbleToChangeCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Page object model Demo homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToChangeCurrency" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite.verifyAddToCompareButtonForEachPrices" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Page object model Demo homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuite" />
+      <option name="METHOD_NAME" value="verifyAddToCompareButtonForEachPrices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,9 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuite.userShouldBeAbleToChangeCurrency" />
+        <item itemvalue="TestNG.TestSuite.registerUserShouldAbleToReferAFriendSuccessfully" />
+        <item itemvalue="TestNG.TestSuite.userShouldAbleToCompareTwoDifferentProductSuccessfully" />
+        <item itemvalue="TestNG.TestSuite.verifyAddToCompareButtonForEachPrices" />
         <item itemvalue="TestNG.TestSuite" />
-        <item itemvalue="TestNG.TestSuite.userShouldAbleToRegisterSuccessfully" />
-        <item itemvalue="JUnit.RegistrationPage.verifyUserIsOnRegisterPage" />
       </list>
     </recent_temporary>
   </component>
@@ -155,38 +227,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582070470867" />
+    <state x="652" y="296" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582478229301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="296" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582478229301" />
+    <state x="701" y="343" width="517" height="368" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582667646386">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="343" width="517" height="368" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1582667646386" />
     <state x="657" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582054742612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="657" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582054742612" />
+    <state x="627" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582466569117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582466569117" />
     <state x="652" y="210" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1582056731833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="210" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582056731833" />
-    <state x="667" y="338" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582047992105">
+    <state x="667" y="338" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582387640310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="338" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582047992105" />
+    <state x="667" y="338" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582387640310" />
     <state x="715" y="210" key="FileChooserDialogImpl" timestamp="1582051635870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582051635870" />
-    <state width="1865" height="216" key="GridCell.Tab.0.bottom" timestamp="1582156078880">
+    <state width="1865" height="208" key="GridCell.Tab.0.bottom" timestamp="1582754308044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582156078880" />
-    <state width="1865" height="216" key="GridCell.Tab.0.center" timestamp="1582156078880">
+    <state width="1865" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582754308044" />
+    <state width="1865" height="208" key="GridCell.Tab.0.center" timestamp="1582754308044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582156078880" />
-    <state width="1865" height="216" key="GridCell.Tab.0.left" timestamp="1582156078880">
+    <state width="1865" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582754308044" />
+    <state width="1865" height="208" key="GridCell.Tab.0.left" timestamp="1582754308044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582156078880" />
-    <state width="1865" height="216" key="GridCell.Tab.0.right" timestamp="1582156078880">
+    <state width="1865" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582754308044" />
+    <state width="1865" height="208" key="GridCell.Tab.0.right" timestamp="1582754308044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582156078880" />
+    <state width="1865" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582754308044" />
     <state width="1865" height="62" key="GridCell.Tab.1.bottom" timestamp="1582070853986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,21 +287,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="62" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582070853986" />
-    <state x="377" y="85" key="Maven.ArtifactSearchDialog" timestamp="1582052244152">
+    <state x="377" y="85" key="Maven.ArtifactSearchDialog" timestamp="1582570189336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="377" y="85" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582052244152" />
+    <state x="377" y="85" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582570189336" />
     <state x="337" y="0" key="SettingsEditor" timestamp="1582137025832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582137025832" />
-    <state x="571" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1582136916466">
+    <state x="571" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1582746313113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="571" y="292" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582136916466" />
+    <state x="571" y="292" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582746313113" />
     <state x="230" y="154" key="new project wizard" timestamp="1581779350158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="230" y="154" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581779350158" />
+    <state x="642" y="55" key="refactoring.ChangeSignatureDialog" timestamp="1582750680087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="55" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582750680087" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1582652133812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582652133812" />
   </component>
 </project>

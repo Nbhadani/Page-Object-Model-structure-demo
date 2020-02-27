@@ -1,6 +1,5 @@
 package org.example;
 
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 
@@ -8,16 +7,17 @@ import org.testng.annotations.BeforeTest;
     BrowserSelector browserSelector = new BrowserSelector();
 
     @BeforeTest
-    public void openBrowser() {
+    public void openBrowser()
+    {
 
-        browserSelector.setUpBrowser();
+        BrowserSelector.setUpBrowser("browser");
 
     }
 
 //    @AfterTest
-//    public void closeBrowser () {
-//
-//        browserSelector.closeBrowser();
+//    public void closeBrowser()
+//    {
+//        BrowserSelector.closeBrowser();
 //    }
 
 }
